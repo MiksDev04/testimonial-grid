@@ -40,7 +40,9 @@ body {
 .wrapper {
     width: clamp(320px, 100%, 1140px);
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
+    padding: 4rem 2rem;
 }
 
 /* left side */
